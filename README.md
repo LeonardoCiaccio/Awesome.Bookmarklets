@@ -1,6 +1,6 @@
-## Go to [home page](http://bookmarklets.github.io/)
+## Vai alla [home page](https://leonardociaccio.github.io/Awesome.Bookmarklets/)
 
 ## Credits
 
-- Framework for home page [semantic-ui](http://semantic-ui.com/)
-- Translation [blajs](https://github.com/LeonardoCiaccio/BlaJs)
+- Framework per la home page [semantic-ui](http://semantic-ui.com/)
+- Traduzioni [blajs](https://leonardociaccio.github.io/BlaJs)
