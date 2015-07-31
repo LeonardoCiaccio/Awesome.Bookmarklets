@@ -45,7 +45,7 @@ Bla.Bla(
                 "one"  : "Dailymotion Downloader"
 
         },                                            
-        "dailymotion update" : {                                       
+        "last update" : {                                       
 
                 "one"  : "Ultimo aggiornamento %n"
 
@@ -58,6 +58,16 @@ Bla.Bla(
         "no lang" : {                                       
 
                 "one"  : "Questa lingua non è disponibile, perché non la traduci ? Fork su GitHub 'gh-pages (branch)' questo progetto open source !"
+
+        },                                            
+        "youtube header" : {                                       
+
+                "one"  : "Youtube Downloader"
+
+        },                                            
+        "drag me youtube" : {                                       
+
+                "one"  : "+ Youtube"
 
         }
 

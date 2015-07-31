@@ -62,6 +62,33 @@
             <!-- // Bookmarklets -->
             <div class="ui two column stackable grid container">
                 
+                <!-- // Youtube -->
+                <div class="column">
+                
+                    <div class="ui special cards">
+                        <div class="card">
+                            <div class="blurring dimmable image">
+                                <div class="ui dimmer">
+                                    <div class="content">
+                                        <div class="center">
+                                            <a href="javascript:!function(t){&quot;use strict&quot;;var e=/^http(?:s?):\/\/www\.youtube\.com\/watch\?v\=/g,r=function(){return alert(&quot;This script have some problems, visit 'https://leonardociaccio.github.io/Awesome.Bookmarklets/' for new updates !&quot;),!1},o=function(){return alert(&quot;Download links insert in to 'Information Tab' !&quot;),!1},n=function(){return alert(&quot;Use this bookmarklet on 'www.youtube.com/watch?v=.....'&quot;),!1},a=&quot;<em><b>If after click download won't start use rigth click and 'Save as ...'</b></em>&quot;,i=function(){var e,r=[];if(!t)return r;try{e=t.config.args.url_encoded_fmt_stream_map}catch(o){return r}try{for(var n=e.split(&quot;,&quot;),a=0;a<n.length;a++){for(var i=n[a].split(&quot;&&quot;),c={},s=0;s<i.length;s++){var u=i[s].split(&quot;=&quot;),l=decodeURIComponent(u[0].toUpperCase()),p=decodeURIComponent(u[1]);switch(l){case&quot;TYPE&quot;:c.type=p;break;case&quot;QUALITY&quot;:c.quality=p;break;case&quot;URL&quot;:c.url=p}}c.type&&c.quality&&c.url&&r.push(c)}return r}catch(o){return r}};if(!e.test(document.location.href))return n();if(!t)return r();var c=i();if(!c)return r();var s=document.getElementById(&quot;eow-description&quot;);if(!s)return r();for(var u=s.innerHTML,l=[],p=0;p<c.length;p++)l.push(&quot;<a href='&quot;+c[p].url+&quot;' download>&quot;+c[p].quality+&quot; - &quot;+c[p].type+&quot;</a>&quot;);return s.innerHTML=&quot;<b>Download :</b><p>&quot;+l.join(&quot;</p><p>&quot;)+&quot;</p><p>&quot;+a+&quot;</p><hr><p>&quot;+u+&quot;</p>&quot;,o()}(window.ytplayer);void(0);" class="ui inverted button bookmarklet" i18n="drag me youtube"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="images/youtube.png">
+                            </div>
+                            <div class="content">
+                                <a href="https://github.com/LeonardoCiaccio/Awesome.Bookmarklets/tree/master/bookmarklets/youtube.downloader" target="_blank" class="header t-tip" i18n="youtube header" data-content="Source Code"></a>
+                                    <div class="meta">
+                                        <span class="date" i18n="last update" i18n-args="30.07.2015"></span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- Youtube // -->
+            
                 <!-- // Dailymotion -->
                 <div class="column">
                 
@@ -80,7 +107,7 @@
                             <div class="content">
                                 <a href="https://github.com/LeonardoCiaccio/Awesome.Bookmarklets/tree/master/bookmarklets/dailymotion.downloader" target="_blank" class="header t-tip" i18n="dailymotion header" data-content="Source Code"></a>
                                     <div class="meta">
-                                        <span class="date" i18n="dailymotion update" i18n-args="30.07.2015"></span>
+                                        <span class="date" i18n="last update" i18n-args="30.07.2015"></span>
                                     </div>
                             </div>
                         </div>
@@ -88,8 +115,6 @@
                 
                 </div>
                 <!-- Dailymotion // -->
-            
-                <div class="column"></div>
                 
             </div>
             <!-- Bookmarklets // -->
