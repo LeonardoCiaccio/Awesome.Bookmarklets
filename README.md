@@ -1,1 +1,1 @@
-### This is a master branch
+### This is a <code>master</code> branch
