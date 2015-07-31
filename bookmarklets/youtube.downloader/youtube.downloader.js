@@ -27,6 +27,20 @@
             return false;
         
         },
+        _sanitizeName = function( name, replacer ){			
+        
+            replacer = replacer || "+";
+
+            return name.replace( /[^a-z 0-9]+/gi, "" ).replace( / /gi, replacer );	
+
+        },
+        _getTitle = function( replacer ){     
+        
+            return ( document.title ) 
+                ? _sanitizeName( document.title, replacer ) 
+                : _sanitizeName( "Youtube Video", replacer );
+
+        },
         dInfo    = "<em><b>If after click download won't start use rigth click and 'Save as ...'</b></em>",
         gLinks   = function(){
         
@@ -124,7 +138,7 @@
     // Strutturiamo i link
     for( var i = 0; i < all.length; i++ ){
     
-        ll.push( "<a href='" + all[ i ].url + "' download>" + all[ i ].quality + " - " + all[ i ].type + "</a>" );
+        ll.push( "<a href='" + all[ i ].url + "' title='" + _getTitle( "_" ) + "' download='" + _getTitle( "_" ) + "'>" + all[ i ].quality + " - " + all[ i ].type + "</a>" );
     
     }
     

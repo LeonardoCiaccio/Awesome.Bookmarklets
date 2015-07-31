@@ -31,6 +31,20 @@
             return false;
         
         },
+        _sanitizeName = function( name, replacer ){			
+        
+            replacer = replacer || "+";
+
+            return name.replace( /[^a-z 0-9]+/gi, "" ).replace( / /gi, replacer );	
+
+        },
+        _getTitle = function( replacer ){     
+        
+            return ( document.title ) 
+                ? _sanitizeName( document.title, replacer ) 
+                : _sanitizeName( "Dailymotion Video", replacer );
+
+        },
         dInfo    = "<em><b>If after click download won't start use rigth click and 'Save as ...'</b></em>";
     
     // Siamo sulla pagina giusta ?
@@ -47,7 +61,7 @@
         
         tsp = ( !tsp ) ? "Video " + ( i + 1 ) : tsp[ 0 ].toString() ;
         
-        response.push( "<a href='" + tmp + "' download>" + tsp + "</a>" );
+        response.push( "<a href='" + tmp + "' title='" + _getTitle( "_" ) + "' download='" + _getTitle( "_" ) + "'>" + tsp + "</a>" );
     
     }
     
