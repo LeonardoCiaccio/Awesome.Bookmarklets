@@ -15,7 +15,7 @@
         response = [],
         kill     = function(){
         
-            alert( "This script have some problems, visit 'https://bookmarklets.github.io/' for new updates !" );
+            alert( "This script have some problems, visit 'https://leonardociaccio.github.io/Awesome.Bookmarklets/' for new updates !" );
             return false;
         
         },
