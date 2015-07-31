@@ -1,0 +1,76 @@
+.ui.icon.header:first-child{
+
+    margin-top: 50px;
+
+}
+
+.icon.top-header{
+
+    color: #AA0000;
+
+}
+
+.ui.card, .ui.cards>.card{
+
+    width: 100%;
+
+}
+
+.ui.card a, .ui.cards>.card .button.bookmarklet{
+
+    cursor: move !important;
+
+}
+
+.ui.section.divider.transparent{
+
+    border-color: transparent;
+
+}
+
+.ui.card>.content>a.header, .ui.cards>.card>.content>a.header:hover{
+
+    color: #AA0000;
+
+}
+
+.ui.tiny.image, .ui.tiny.images .image, .ui.tiny.images img, .ui.tiny.images svg{
+
+    width: 40px;
+
+}
+
+.footer{
+
+    margin-bottom: 40px;
+
+}
+
+.change-lang{
+    
+    display: inline-block;
+    padding: 3px;
+
+}
+
+.divider.transparent.intermediate{
+
+    margin-bottom: 60px;
+
+}
+
+.ui.container.footer{
+
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
