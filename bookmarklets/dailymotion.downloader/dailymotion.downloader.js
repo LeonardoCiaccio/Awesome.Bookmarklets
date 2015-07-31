@@ -53,7 +53,7 @@
     
     // Voglio inserlo nelle informazioni, se non lo trovo genero un errore
     var description = document.getElementById( "video_description" );
-    if( !video_description )return kill();
+    if( !description )return kill();
     
     // Dedichiamo lo spazio per i download            
     description.setAttribute( "style", "max-height:2000px!important" );
