@@ -57,7 +57,7 @@ Bla.Bla(
         },                                            
         "no lang" : {                                       
 
-                "one"  : "Questa lingua non è disponibile, perché non la traduci ? Fork su GitHub questo progetto open source !"
+                "one"  : "Questa lingua non è disponibile, perché non la traduci ? Fork su GitHub 'gh-pages (branch)' questo progetto open source !"
 
         }
 
