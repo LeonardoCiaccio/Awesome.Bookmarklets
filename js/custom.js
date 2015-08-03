@@ -127,11 +127,21 @@
                 __signLang( lang );
             
             } );
-            
+                        
             $( ".t-tip" ).popup();
             
             // Traduciamo la console
             $( "*" ).Bla();
+            
+            // Dopo la traduzione appendiamo gli eventi per gli elementi tradotti
+            
+            // Mostriamo come fare
+            $( ".show-how" ).click( function(){
+                
+                $( ".ui.basic.modal.how-to" ).modal( "show" );
+                return false;
+            
+            } );
             
             // Mostriamo il body
             $( "body" ).show();

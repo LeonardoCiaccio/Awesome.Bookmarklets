@@ -22,7 +22,7 @@ Bla.Bla(
 
                 "one"  : "I Bookmarklets sono piccoli pezzi di codice javascript +/- complessi eseguibili come segnalibri." +
                          "Non richiedono installazioni e sono eseguibili su tutti i browser, vengono utilizzati per qualsiasi " +
-                         "compito, dai download alla grafica."
+                         "compito, dai download alla grafica <a href='#' class='show-how'>guarda come utilizzarlo.</a>"
 
         },                                            
         "description 2p" : {                                       
@@ -68,6 +68,11 @@ Bla.Bla(
         "drag me youtube" : {                                       
 
                 "one"  : "+ Youtube"
+
+        },                                            
+        "How to install" : {                                       
+
+                "one"  : "Come si utilizza"
 
         }
 
